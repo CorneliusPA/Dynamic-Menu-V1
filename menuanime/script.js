@@ -113,6 +113,25 @@ function enlargeGreen(){
 
     var e = document.getElementById("center");
     e.style.backgroundColor = "green";
+
+    var f = document.getElementById("texta");
+f.style.fontSize = "45" + "px";
+f.style.marginLeft = "-5" + "px";
+
+var f = document.getElementById("textb");
+  f.style.fontSize = "32" + "px";
+  f.style.marginLeft = "10" + "px";
+  f.style.marginTop = "80" + "px";
+
+  var f = document.getElementById("textc");
+  f.style.fontSize = "32" + "px";
+  f.style.marginLeft = "0" + "px";
+  f.style.marginTop = "40" + "px";
+
+  var f = document.getElementById("textd");
+f.style.fontSize = "32" + "px";
+f.style.marginLeft = "10" + "px";
+f.style.marginTop = "20" + "px";
 }
 
 function enlargeRed(){
@@ -130,6 +149,25 @@ function enlargeRed(){
 
     var e = document.getElementById("center");
     e.style.backgroundColor = "red";
+
+    var f = document.getElementById("texta");
+    f.style.fontSize = "32" + "px";
+    f.style.marginLeft = "30" + "px";
+
+    var g = document.getElementById("textb");
+  g.style.fontSize = "32" + "px";
+  g.style.marginLeft = "10" + "px";
+  g.style.marginTop = "80" + "px";
+
+  var h = document.getElementById("textc");
+  h.style.fontSize = "32" + "px";
+  h.style.marginLeft = "0" + "px";
+  h.style.marginTop = "40" + "px";
+
+  var i = document.getElementById("textd");
+i.style.fontSize = "32" + "px";
+i.style.marginLeft = "10" + "px";
+i.style.marginTop = "20" + "px";
 }
 
 function enlargeBlue(){
@@ -147,6 +185,25 @@ function enlargeBlue(){
 
     var e = document.getElementById("center");
     e.style.backgroundColor = "blue";
+
+    var f = document.getElementById("texta");
+    f.style.fontSize = "32" + "px";
+    f.style.marginLeft = "30" + "px";
+
+    var g = document.getElementById("textb");
+  g.style.fontSize = "32" + "px";
+  g.style.marginLeft = "10" + "px";
+  g.style.marginTop = "80" + "px";
+
+    var h = document.getElementById("textc");
+    h.style.fontSize = "45" + "px";
+    h.style.marginLeft = "-20" + "px";
+    h.style.marginTop = "30" + "px";
+
+    var i = document.getElementById("textd");
+i.style.fontSize = "32" + "px";
+i.style.marginLeft = "10" + "px";
+i.style.marginTop = "20" + "px";
 }
 
 function enlargeYellow(){
@@ -164,6 +221,25 @@ function enlargeYellow(){
 
     var e = document.getElementById("center");
     e.style.backgroundColor = "yellow";
+
+    var f = document.getElementById("texta");
+    f.style.fontSize = "32" + "px";
+    f.style.marginLeft = "30" + "px";
+
+    var g = document.getElementById("textb");
+  g.style.fontSize = "32" + "px";
+  g.style.marginLeft = "10" + "px";
+  g.style.marginTop = "80" + "px";
+
+  var h = document.getElementById("textc");
+  h.style.fontSize = "32" + "px";
+  h.style.marginLeft = "0" + "px";
+  h.style.marginTop = "40" + "px";
+
+    var i = document.getElementById("textd");
+i.style.fontSize = "45" + "px";
+i.style.marginLeft = "0" + "px";
+i.style.marginTop = "10" + "px";
 }
 
 function reset(){
@@ -181,6 +257,25 @@ function reset(){
 
     var e = document.getElementById("center");
     e.style.backgroundColor = "white";
+
+    var f = document.getElementById("texta");
+    f.style.fontSize = "32" + "px";
+    f.style.marginLeft = "30" + "px";
+
+    var g = document.getElementById("textb");
+  g.style.fontSize = "32" + "px";
+  g.style.marginLeft = "10" + "px";
+  g.style.marginTop = "80" + "px";
+
+  var h = document.getElementById("textc");
+  h.style.fontSize = "32" + "px";
+  h.style.marginLeft = "0" + "px";
+  h.style.marginTop = "40" + "px";
+
+  var i = document.getElementById("textd");
+i.style.fontSize = "32" + "px";
+i.style.marginLeft = "10" + "px";
+i.style.marginTop = "20" + "px";
 }
 
 document.getElementById("greenBox").onmouseover = function() {mouseOverGreen()};
