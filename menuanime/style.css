@@ -1,0 +1,47 @@
+.square{
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    border-right: 188px solid transparent;
+	border-left: 188px solid transparent;
+	
+}
+
+#blue:hover{
+    
+    
+    z-index: 7;
+}
+
+#red:hover{
+    border-bottom: 282px solid red; 
+    transform: rotate(270deg); 
+    margin-left: 47px; 
+    margin-top: 48px;
+    border-right: 188px solid transparent;
+	border-left: 188px solid transparent;
+    height: 0px;
+    width: 0px;
+}
+
+#green:hover{
+    border-bottom: 282px solid green; 
+    transform: rotate(180deg); 
+    margin-top: 1px;
+    border-right: 188px solid transparent;
+	border-left: 188px solid transparent;
+    height: 0px;
+    width: 0px;
+}
+
+#yellow:hover{
+    border-bottom: 282px solid yellow; 
+    transform: rotate(90deg); 
+    margin-left: -46px; 
+    margin-top: 47px; 
+    z-index: 4;
+    border-right: 188px solid transparent;
+	border-left: 188px solid transparent;
+    height: 0px;
+    width: 0px;
+}

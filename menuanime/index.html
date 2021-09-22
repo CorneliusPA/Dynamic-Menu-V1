@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+    </head>
+    <body>
+
+          <div class="square" style="border-bottom: 188px solid blue; transform: rotate(0deg); margin-top: 188px; z-index: 1;"></div>
+          <div id="blue" class="square"  style="border-bottom: 282px solid blue; transform: rotate(0deg); margin-top: 94px;"></div>
+
+          <div class="square" style="border-bottom: 188px solid yellow; transform: rotate(90deg); margin-left: -94px; margin-top: 95px; z-index: 1;"></div>
+          <div id="yellow" class="square" style="border-bottom: 282px solid yellow; transform: rotate(90deg); margin-left: -46px; margin-top: 47px;"></div>
+
+          <div class="square" style="border-bottom: 188px solid green; transform: rotate(180deg); margin-top: 1px; z-index: 1;"></div>
+          <div id="green" class="square" style="border-bottom: 282px solid green; transform: rotate(180deg); margin-top: 1px;"></div> 
+
+          <div class="square" style="border-bottom: 188px solid red; transform: rotate(270deg); margin-left: 94px; margin-top: 94.05px; z-index: 1;"></div>
+          <div id="red" class="square" style="border-bottom: 282px solid red; transform: rotate(270deg); margin-left: 47px; margin-top: 48px;"></div>
+
+   <div id="box" style="border: 1px solid black; width: 375px; height: 375px; z-index: 5; position: absolute; left: 40%;"></div>
+     
+  <div id="greenBox" style=" width: 124px; height: 124px; position: absolute; margin-top: 0px; margin-left: 125px;z-index: 3;"></div>
+  <div id="redBox" style=" width: 124px; height: 124px; position: absolute; margin-top: 125px; margin-left: 251px;z-index: 3;"></div>
+  <div id="blueBox" style="width: 124px; height: 124px; position: absolute; margin-top: 251px; margin-left: 125px; z-index: 3;"></div>
+  <div id="yellowBox" style=" width: 124px; height: 124px; position: absolute; margin-top: 125px; margin-left: 0px; z-index: 3;"></div>
+<div style="margin-top: 500px; position: absolute;">
+    <button onclick="enlargeGreen()">green</button>
+    <button onclick="enlargeRed()">red</button>
+    <button onclick="enlargeBlue()">blue</button>
+    <button onclick="enlargeYellow()">yellow</button>
+    <button onclick="reset()">reset</button>
+</div>
+</body>
+</html>
