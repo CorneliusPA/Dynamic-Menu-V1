@@ -2,9 +2,18 @@
     height: 0px;
     width: 0px;
     position: absolute;
-    border-right: 188px solid transparent;
-	border-left: 188px solid transparent;
+    border-right: 256px solid transparent;
+	border-left: 120px solid transparent;
 	
+}
+
+#box{
+    animation: altBox infinite alternate 1s;
+}
+
+@keyframes altBox {
+    from{}
+    to{background-color: white;}
 }
 
 #blue:hover{
