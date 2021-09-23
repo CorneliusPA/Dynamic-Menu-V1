@@ -113,9 +113,10 @@ function enlargeGreen(){
 
     var e = document.getElementById("center");
     e.style.backgroundColor = "green";
+    e.src = "images/Contact.gif";
 
     var f = document.getElementById("texta");
-f.style.fontSize = "45" + "px";
+f.style.fontSize = "40" + "px";
 f.style.marginLeft = "-5" + "px";
 
 var f = document.getElementById("textb");
@@ -149,13 +150,13 @@ function enlargeRed(){
 
     var e = document.getElementById("center");
     e.style.backgroundColor = "red";
-
+    e.src = "images/Skills.gif";
     var f = document.getElementById("texta");
     f.style.fontSize = "32" + "px";
     f.style.marginLeft = "30" + "px";
 
     var g = document.getElementById("textb");
-  g.style.fontSize = "32" + "px";
+  g.style.fontSize = "40" + "px";
   g.style.marginLeft = "10" + "px";
   g.style.marginTop = "80" + "px";
 
@@ -185,6 +186,7 @@ function enlargeBlue(){
 
     var e = document.getElementById("center");
     e.style.backgroundColor = "blue";
+    e.src = "images/Projects.gif";
 
     var f = document.getElementById("texta");
     f.style.fontSize = "32" + "px";
@@ -196,7 +198,7 @@ function enlargeBlue(){
   g.style.marginTop = "80" + "px";
 
     var h = document.getElementById("textc");
-    h.style.fontSize = "45" + "px";
+    h.style.fontSize = "40" + "px";
     h.style.marginLeft = "-20" + "px";
     h.style.marginTop = "30" + "px";
 
@@ -221,6 +223,7 @@ function enlargeYellow(){
 
     var e = document.getElementById("center");
     e.style.backgroundColor = "yellow";
+    e.src = "images/Resume.gif";
 
     var f = document.getElementById("texta");
     f.style.fontSize = "32" + "px";
@@ -237,7 +240,7 @@ function enlargeYellow(){
   h.style.marginTop = "40" + "px";
 
     var i = document.getElementById("textd");
-i.style.fontSize = "45" + "px";
+i.style.fontSize = "40" + "px";
 i.style.marginLeft = "0" + "px";
 i.style.marginTop = "10" + "px";
 }
@@ -257,7 +260,7 @@ function reset(){
 
     var e = document.getElementById("center");
     e.style.backgroundColor = "white";
-
+    e.src = "images/Logo.png";
     var f = document.getElementById("texta");
     f.style.fontSize = "32" + "px";
     f.style.marginLeft = "30" + "px";
@@ -286,8 +289,9 @@ document.getElementById("green").style.zIndex = "2";
 
 var e = document.getElementById("center");
   e.style.backgroundColor = "green";
+  e.src = "images/Contact.gif";
 var f = document.getElementById("texta");
-f.style.fontSize = "45" + "px";
+f.style.fontSize = "40" + "px";
 f.style.marginLeft = "-5" + "px";
   
 }
@@ -296,7 +300,7 @@ function mouseOutGreen() {
   document.getElementById("green").style.zIndex = "0";
   var e = document.getElementById("center");
     e.style.backgroundColor = "white";
-
+e.src = "images/Logo.png";
     var f = document.getElementById("texta");
   f.style.fontSize = "32" + "px";
   f.style.marginLeft = "30" + "px";
@@ -309,9 +313,9 @@ function mouseOverRed() {
   document.getElementById("red").style.zIndex = "2";
   var e = document.getElementById("center");
     e.style.backgroundColor = "red";
-
+e.src = "images/Skills.gif";
     var f = document.getElementById("textb");
-  f.style.fontSize = "45" + "px";
+  f.style.fontSize = "40" + "px";
   f.style.marginLeft = "-20" + "px";
   f.style.marginTop = "90" + "px";
 }
@@ -320,7 +324,7 @@ function mouseOutRed() {
 document.getElementById("red").style.zIndex = "0";
   var e = document.getElementById("center");
     e.style.backgroundColor = "white";
-
+    e.src = "images/Logo.png";
     var f = document.getElementById("textb");
   f.style.fontSize = "32" + "px";
   f.style.marginLeft = "10" + "px";
@@ -334,9 +338,9 @@ function mouseOverBlue() {
 document.getElementById("blue").style.zIndex = "2";
 var e = document.getElementById("center");
   e.style.backgroundColor = "blue";
-
+  e.src = "images/Projects.gif";
   var f = document.getElementById("textc");
-f.style.fontSize = "45" + "px";
+f.style.fontSize = "40" + "px";
 f.style.marginLeft = "-20" + "px";
 f.style.marginTop = "30" + "px";
 
@@ -346,7 +350,7 @@ function mouseOutBlue() {
 document.getElementById("blue").style.zIndex = "0";
   var e = document.getElementById("center");
     e.style.backgroundColor = "white";
-
+    e.src = "images/Logo.png";
     var f = document.getElementById("textc");
   f.style.fontSize = "32" + "px";
   f.style.marginLeft = "0" + "px";
@@ -360,9 +364,9 @@ function mouseOverYellow() {
 document.getElementById("yellow").style.zIndex = "2";
 var e = document.getElementById("center");
   e.style.backgroundColor = "yellow";
-
+e.src = "images/Resume.gif";
   var f = document.getElementById("textd");
-f.style.fontSize = "45" + "px";
+f.style.fontSize = "40" + "px";
 f.style.marginLeft = "0" + "px";
 f.style.marginTop = "10" + "px";
 }
@@ -371,7 +375,7 @@ function mouseOutYellow() {
 document.getElementById("yellow").style.zIndex = "0";
 var e = document.getElementById("center");
   e.style.backgroundColor = "white";
-
+  e.src = "images/Logo.png";
   var f = document.getElementById("textd");
 f.style.fontSize = "32" + "px";
 f.style.marginLeft = "10" + "px";
